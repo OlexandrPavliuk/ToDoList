@@ -26,4 +26,5 @@
     <br />
     <asp:Button ID="Button_Save" runat="server" OnClick="Button_Save_Click" Text="Save" />
     <br />
+    <asp:HiddenField id="ItemIdField" runat="server" />
 </asp:Content>    
