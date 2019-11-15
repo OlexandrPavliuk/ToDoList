@@ -5,10 +5,9 @@
         <br />
         <br />
         <asp:GridView ID="GridViewToDo" runat="server" CellPadding="4" ForeColor="#333333"
-                GridLines="Both" AllowPaging="True" AllowSorting="True" OnRowCreated="GridViewToDo_RowCreated" 
-                PageSize="5" OnPageIndexChanging="GridViewToDo_PageIndexChanging" OnRowDataBound="GridViewToDo_RowDataBound" 
-                OnSelectedIndexChanged="GridViewToDo_SelectedIndexChanged" DataKeyNames="Id" 
-                OnSorting="GridViewToDo_Sorting">
+                GridLines="Both" AllowPaging="True" AllowSorting="True" PageSize="5" OnPageIndexChanging="GridViewToDo_PageIndexChanging" 
+                OnRowDataBound="GridViewToDo_RowDataBound" OnSelectedIndexChanged="GridViewToDo_SelectedIndexChanged" DataKeyNames="Id" 
+                OnSorting="GridViewToDo_Sorting" AutoGenerateColumns="false">
             <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
             <EditRowStyle BackColor="#999999" />
             <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
